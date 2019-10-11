@@ -18,10 +18,11 @@ int main()
 	//test input
 	int a[] = {17, 28, 1, 48, 7};
 	int dim = 5;
-	int elem = 5;
+	int elem1 = 5;
+	int elem2 = 17;
 	
-	cout << recurs_lin_search(a, dim, elem) << endl;
-	
+	cout << recurs_lin_search(a, dim, elem1) << endl;
+	cout << recurs_lin_search(a, dim, elem2) << endl;
 	
 	return 0;
 }
